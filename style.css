@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+body {
+  background: hsla(0, 0%, 0%, 1);
+}
+p {
+  width: 100%;
+  margin-top: 5%;
+  color: hsla(255, 255%, 255%, 1);
+  font-size: 5em;
+  letter-spacing: 3px;
+  font-family: 'Electrolize', sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px hsla(255, 255%, 255%, 0.7),
+    2px 2px hsla(255, 255%, 255%, 0.6), 3px 3px hsla(255, 255%, 255%, 0.5),
+    4px 4px hsla(255, 255%, 255%, 0.3), 5px 5px hsla(255, 255%, 255%, 0.1);
+}
+#led {
+  width: 100%;
+}
+
+#led table,
+#led canvas {
+  width: 100%;
+  height: 97vh;
+  padding: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#led td {
+  padding: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid hsla(0, 0%, 20%, 1);
+}
+
+#led td.off {
+  background: hsla(0, 0%, 7%, 1);
+}
