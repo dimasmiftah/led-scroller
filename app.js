@@ -184,3 +184,7 @@ function upd() {
   }
 }
 _anim();
+console.log(
+  '%c Based on codepen by Tiffany Rayside ',
+  'background: #222; color: #bada55'
+);
